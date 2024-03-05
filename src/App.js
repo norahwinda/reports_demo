@@ -11,7 +11,7 @@ import ReportView from './ReportView';
 function App() {
   return (
     <>
-    <Router>
+    <Router  basename="/reports_demo">
       <Routes>
       <Route
         exact
